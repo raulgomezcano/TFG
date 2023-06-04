@@ -202,6 +202,6 @@ seleccionarTatuaje() {
    }
    filtrarPorTamano(tamano: string){
      this.tattooFiltrado = this.tattooFiltrado.filter(tattoo => tattoo.tamano === tamano);
-     alert("tattooFiltrado[id] es: " + this.tattooFiltrado[tamano].idTattoo)
+     alert("tattooFiltrado[id] es: " + this.tattooFiltrado)
    }
 }
